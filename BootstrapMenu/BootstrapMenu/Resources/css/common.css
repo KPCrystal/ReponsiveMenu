@@ -1,0 +1,63 @@
+﻿.div-head{
+    margin-top:70px;
+    margin-left:15%;
+}
+
+.div-body{
+    margin-top:15px;
+    margin-left:15%;
+}
+
+.div-foot{
+    margin-bottom: 60px;
+}
+
+.img-style{
+    width:82%;
+    height:auto;
+}
+
+.text-header{
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+    margin-right:18%;
+}
+
+.text-body{
+    text-align: justify;
+    font-size:20px;
+    margin-right:18%;
+}
+
+.text-contact-header{
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.text-contact-body{
+    text-align:center;
+    font-size:20px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox-style {
+    margin:2px;
+    padding-left: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+}

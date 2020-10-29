@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BootstrapMenu.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <%--bootstrap css --%>
+    <link href="Resources/css/bootstrap.min.css" rel="stylesheet" />
+    <%-- common css --%>
+    <link href="Resources/css/common.css" rel="stylesheet" />
+
+    <%--jquery js --%>
+    <script src="Resources/js/jquery-3.5.1.min.js"></script>
+    <%--popper js --%>
+    <script src="Resources/js/popper.min.js"></script>
+    <%--bootstrap js --%>
+    <script src="Resources/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%-- Menu Start --%>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #e3f2fd;">
+                <a class="navbar-brand" href="#1">
+                    <img src="Resources/img/company-logo.png" width="50" height="30" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="Home.aspx">About Us</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="Solutions.aspx">Solutions</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="Products.aspx">Products and Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <%-- Menu End --%>
+
+        <d>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </d
+            iv>
+
+        <%-- Footer Start --%>
+        <footer class="fixed-bottom" style="text-align: center; background: #e3f2fd;">
+            <p style="margin-top:20px;">Copyright &copy 2020-2020 KPCrystal Co. Ltd. All rights reserved.</p>
+        </footer>
+        <%-- Footer End --%>
+    </form>
+</body>
+</html>
